@@ -1,0 +1,21 @@
+Create a Homepage
+commit
+Style the homepage with basic styling
+commit
+create and style newpost page
+commit
+Link the homepage to the newpost page
+commit
+Create a post page
+commit
+Style the post page with basic styling
+commit
+link the homepage to the post page
+commit
+create javascript funcions to use CRUD
+commit
+tweak and finish the styling
+commit
+check functionality
+commit any changes
+Hand in
