@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleHome.css">
+    <script defer src="scriptHome.js"></script>
+    <title>Newpost</title>
+</head>
+<body>
+    <header>
+        <h1>This is the new post page.</h1>
+    </header>
+
+    <h1>Here you can create a new post.</h1>
+   
+    <section>
+    <form method="POST" id="formInput">
+        <label for="post-title">Title:</label>
+        <br>
+        <input type="text" class="title" id="post-title" name="post-title" required>
+        <br>
+        <br>
+        <label for="post-content">Message:</label>
+        <br>
+        <textarea id="post-content" name="post-content" id="postContent" maxlength="300" required></textarea>
+        <br>
+        <br>
+        <button type="submit" id="submitBtn">Submit</button>
+        <button type='reset' id="resetBtn">Reset</button>
+        <button type="button" onclick="window.location.href='index.html'">Home</button>
+    </section>
+    </form>
+<footer>
+    <p>&copy; 2025
+    <button type="clear" id="clearBtn">Michael R Newman</button>
+    </p>
+</footer>
+
+</body>
+</html>

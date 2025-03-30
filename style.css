@@ -1,0 +1,121 @@
+body {
+    background-color: rgba(76, 205, 76, 0.847);
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    color: #363636ce;
+}
+
+header {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+    width: 100%;
+    height: auto;
+    top: 0;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+section {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: whitesmoke;
+    color: #333;
+    border: solid;
+    word-wrap: break-word;
+}
+.nav {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.posts {
+    margin-bottom: 100px;
+    padding: 10px;
+    text-align: left;
+    border: solid black;
+    border-radius: 5px;
+    height: fit-content;
+    font-size: 15px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    gap: 20%;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 20%;
+    padding: 5px;
+    border: solid black;
+    border-radius: 5px;
+    font-size: 18px;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    color: #333;
+    text-align: center;
+}
+
+textarea {
+    border: solid black;
+    height: 100px;
+    width: 400px;
+    justify-self: center;
+    text-align: left;
+    font-size: 18px;
+    border-radius: 5px;
+    resize: none;
+}
