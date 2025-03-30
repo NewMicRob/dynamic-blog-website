@@ -5,51 +5,66 @@ body {
     margin: 0;
     padding: 0;
     color: #363636ce;
-    
 }
-
-h1 {
-    color: #333;
-    text-align: center;
-    margin-top: 20px;
-}
-
-h2 {
-    color: #333;
-    text-align: center;
-    margin-top: 20px;
-}
-
-section {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    padding: 20px;
-    border: none;;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 5px 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: whitesmoke;
-    color: #333;
-    text-decoration: underline;
-}
-
-
 
 header {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
     width: 100%;
     height: auto;
     top: 0;
     background-color: whitesmoke;
     margin: 0;
     padding: 10px;
-    text-align: center;
     font-size: 24px;
     font-weight: bold;
     background-size: cover;
     background-position: center;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+section {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: whitesmoke;
+    color: #333;
+    border: solid;
+    word-wrap: break-word;
+}
+.nav {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.posts {
+    margin-bottom: 100px;
+    padding: 10px;
+    text-align: left;
+    border: solid black;
+    border-radius: 5px;
+    height: fit-content;
+    font-size: 15px;
 }
 
 ul {
@@ -69,7 +84,7 @@ nav ul li a:hover {
 a {
     text-decoration: none;
     color: blue;
-    padding: 10px;
+    padding-bottom: 5px;
     display: inline-block;
 }
 
@@ -81,9 +96,9 @@ p {
 input[type="text"] {
     width: 20%;
     padding: 5px;
-    border: 2px solid rgb(0, 191, 255);
+    border: solid black;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 18px;
 }
 footer {
     position: fixed;
@@ -92,4 +107,15 @@ footer {
     background-color: whitesmoke;
     color: #333;
     text-align: center;
+}
+
+textarea {
+    border: solid black;
+    height: 100px;
+    width: 400px;
+    justify-self: center;
+    text-align: left;
+    font-size: 18px;
+    border-radius: 5px;
+    resize: none;
 }
