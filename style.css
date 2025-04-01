@@ -108,7 +108,18 @@ footer {
     color: #333;
     text-align: center;
 }
-
+textarea#posts {
+    border: none;
+    height: 100px;
+    width: 400px;
+    justify-self: center;
+    text-align: left;
+    font-size: 18px;
+    border-radius: 5px;
+    resize: none;
+    background-color: whitesmoke;
+    user-select: none;
+}
 textarea {
     border: solid black;
     height: 100px;

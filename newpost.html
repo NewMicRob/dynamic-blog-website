@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styleHome.css">
-    <script defer src="scriptHome.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
     <title>Newpost</title>
 </head>
 <body>
@@ -12,30 +12,39 @@
         <h1>This is the new post page.</h1>
     </header>
 
+    <section class="nav">
+        <h2>Navigation</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a><br><p>HomePage</p></li>
+                <li><a href="post.html">Post</a><br> <p>View/Edit</p></li>
+                <li><a href="newpost.html">New Post</a> <br> <p>Create</p></li>
+            </ul>
+        </nav>
+    </section>
+
     <h1>Here you can create a new post.</h1>
 
     <section>
-    <form method="POST" id="formInput">
+    <form id="formInput">
         <label for="post-title">Title:</label>
         <br>
-        <input type="text" class="title" id="post-title" name="post-title" required>
+        <input type="text" class="title" id="post-title" required>
         <br>
         <br>
         <label for="post-content">Message:</label>
         <br>
-        <textarea id="post-content" name="post-content" id="postContent" maxlength="300" required></textarea>
+        <textarea id="post-content" maxlength="300" required></textarea>
         <br>
         <br>
         <button type="submit" id="submitBtn">Submit</button>
-        <button type='reset' id="resetBtn">Reset</button>
-        <button type="button" onclick="window.location.href='index.html'">Home</button>
+        <button type="reset" id="clear-Btn">Reset</button>
     </section>
+    <p id="posted"></p>
     </form>
 <!--copyright symbol is the clear button-->
 <footer>
-    <p><button type="clear" id="clearBtn">&copy;</button>
-    2025  Michael R Newman
-    </p>
+    &copy;2025  Michael R Newman
 </footer>
 
 </body>
