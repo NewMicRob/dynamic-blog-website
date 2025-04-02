@@ -98,3 +98,44 @@ upSubmitBtn.addEventListener('click', (event) => {
         alert('No posts available to update.');
     }
 });
+
+/*
+// post.hmtl needs to get(retrieve)the original post from index by its id(randomly generated) then Needs to update using PUT(update), on click event to delete the original post by its id and post.htmls post needs to display where the old id was taken from.
+function displayPost(post) {
+    const rePost = document.getElementById(`${post.id}`);
+    rePost.innerHTML = '';
+
+    post.posts.forEach(singlePost => {
+        const posted = document.createElement('div');
+        posted.innerHTML = `
+            <h3>${singlePost.title}</h3>
+            <p>${singlePost.content}</p>
+        `;
+        rePost.appendChild(posted);
+    });
+}
+
+// Add click event to navigate to post.html with the selected post ID
+postsContainer.addEventListener('click', (event) => {
+    const postElement = event.target.closest('section');
+    if (postElement) {
+        const postId = postElement.id;
+        window.location.href = `post.html?id=${postId}`;
+    }
+});
+
+//Delete Button
+function handleDeleteButtonClick(event) {
+    const postIdToDelete = event.target.dataset.postId;
+    const savedPosts = JSON.parse(getFromLocalStorage('posts')) || [];
+
+    const newPosts = savedPosts.filter(p => p.id !== postIdToDelete); //creates new array without the deleted post.
+
+    saveToLocalStorage('posts', JSON.stringify(newPosts));
+    updateDOM(postsContainer, newPosts);
+    displayLatestPost(newPosts);
+
+    alert('Post Deleted');
+
+}
+*/
