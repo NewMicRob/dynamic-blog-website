@@ -3,12 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
     <title>Post</title>
 </head>
 <body>
-    <h1>This is the post page.</h1>
-    <p>Here you can see the posts that have been made.</p>
-
-    <button type="button" onclick="window.location.href='index.html'">Home</button>
+    <header>
+        <h1>
+            This is the post page.
+        </h1>
+    </header>
+    <h2>Here you can see the posts that have been made.</h2>
+    <section class="nav">
+        <h2>Navigation</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a><br><p>HomePage</p></li>
+                <li><a href="post.html">Post</a><br> <p>View/Edit</p></li>
+                <li><a href="newpost.html">New Post</a> <br> <p>Create</p></li>
+            </ul>
+        </nav>
+    </section>
+    
+    <section>
+        <div id="postpost" contenteditable="true"></div>
+        <button type="submit" id="upSubmitBtn">Update</button>
+        <button type="reset" id="clearBtn">Reset</button>
+    </section>
+    
+    <footer>
+        &copy;2025 Michael R Newman
+    </footer>
 </body>
 </html>

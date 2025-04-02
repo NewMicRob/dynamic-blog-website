@@ -1,10 +1,14 @@
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: rgba(76, 205, 76, 0.847);
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     color: #363636ce;
+    min-height: 100vh;
 }
 
 header {
@@ -84,7 +88,7 @@ nav ul li a:hover {
 a {
     text-decoration: none;
     color: blue;
-    padding-bottom: 5px;
+    padding-top: 30px;
     display: inline-block;
 }
 
@@ -100,13 +104,28 @@ input[type="text"] {
     border-radius: 5px;
     font-size: 18px;
 }
+
 footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
     background-color: whitesmoke;
-    color: #333;
+    color: black;
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px 0;
     text-align: center;
+    margin-top: auto;
+}
+
+textarea#posts {
+    border: none;
+    height: 100px;
+    width: 400px;
+    justify-self: center;
+    text-align: left;
+    font-size: 18px;
+    border-radius: 5px;
+    resize: none;
+    background-color: whitesmoke;
+    user-select: none;
 }
 
 textarea {
@@ -118,4 +137,30 @@ textarea {
     font-size: 18px;
     border-radius: 5px;
     resize: none;
+}
+
+form {
+    font-size: 20px;
+}
+
+button {
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    width: 10%;
+}
+
+button#clearBtn:hover {
+    transition: 500ms;
+    background-color: rgb(255, 84, 84);
+}
+
+button#submitBtn:hover {
+    transition: 500mm;
+    background-color: lightgreen;
+}
+
+button#upSubmitBtn:hover {
+    transition: 500mm;
+    background-color: lightgreen;
 }
