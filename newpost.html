@@ -29,19 +29,18 @@
     <form id="formInput">
         <label for="post-title">Title:</label>
         <br>
-        <input type="text" class="title" id="post-title" required>
+        <input type="text" class="title" id="post-title" required minlength="1">
         <br>
         <br>
         <label for="post-content">Message:</label>
         <br>
-        <textarea id="post-content" maxlength="300" required></textarea>
+        <textarea id="post-content" maxlength="300" required minlength="1"></textarea>
         <br>
         <br>
         <button type="submit" id="submitBtn">Submit</button>
-        <button type="reset" id="clear-Btn">Reset</button>
-    </section>
-    <p id="posted"></p>
+        <button type="reset" id="clearBtn">Reset</button>
     </form>
+    </section>
 <!--copyright symbol is the clear button-->
 <footer>
     &copy;2025  Michael R Newman

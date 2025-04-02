@@ -26,18 +26,9 @@
     </section>
     
     <section>
-        <form method="POST" id="updatePostForm">
-            <label for="title">Title</label>
-            <br>
-            <input type="text" id="upPost" name="upPost">
-            <br>
-            <label for="content">Message</label>
-            <br>
-            <textarea id="content" name="content"></textarea>
-            <br>
-            <button type="button" onclick="updatePost()">Update</button>
-            <button type="button" onclick="deletePost()">Delete</button>
-        </form>
+        <div id="postpost" contenteditable="true"></div>
+        <button type="submit" id="upSubmitBtn">Update</button>
+        <button type="reset" id="clearBtn">Reset</button>
     </section>
     
     <footer>
