@@ -150,7 +150,7 @@ button {
     width: 10%;
 }
 
-button#clearBtn:hover {
+button#deleteBtn:hover {
     transition: 500ms;
     background-color: rgb(255, 84, 84);
 }

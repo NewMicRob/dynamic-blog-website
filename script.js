@@ -98,3 +98,38 @@ upSubmitBtn.addEventListener('click', (event) => {
         alert('No posts available to update.');
     }
 });
+
+/*
+function displayPost(post) {
+    const rePost = document.getElementById(`${post.id}`);
+    rePost.innerHTML = '';
+    post.posts.forEach(singlePost => {
+        const posted = document.createElement('div');
+        posted.innerHTML = `
+            <h3>${singlePost.title}</h3>
+            <p>${singlePost.content}</p>
+        `;
+        rePost.appendChild(posted);
+    });
+}
+
+postsContainer.addEventListener('click', (event) => {
+    const postElement = event.target.closest('section');
+    if (postElement) {
+        const postId = postElement.id;
+        window.location.href = `post.html?id=${postId}`;
+    }
+});
+
+//Delete Button
+function handleDeleteButtonClick(event) {
+    const postIdToDelete = event.target.dataset.postId;
+    const savedPosts = JSON.parse(getFromLocalStorage('posts')) || [];
+    const newPosts = savedPosts.filter(p => p.id !== postIdToDelete);
+    saveToLocalStorage('posts', JSON.stringify(newPosts));
+    updateDOM(postsContainer, newPosts);
+    displayLatestPost(newPosts);
+    alert('Post Deleted');
+
+}
+*/
